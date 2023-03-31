@@ -22,6 +22,8 @@ public class RunTestOnChrome {
         driver.get("https://www.google.com");
         driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Kartik Chetan Patel");
         driver.manage().window().maximize();
+        System.out.println("Hello! This is from Kartik Patel");
+        System.out.println("Hello! This is from SAGAR PANSARE");
     }
 
     @AfterMethod
